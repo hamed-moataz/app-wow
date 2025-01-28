@@ -98,32 +98,6 @@ onMounted(() => {
     </div>
   </div>
 
-  <!-- <div class="container">
-        <h2 class="text-2xl font-bold text-center">خدمات شركة التكنولوجيا</h2>
-        <div class="flex flex-wrap justify-center items-center gap-3">
-          <div
-            v-for="service in serves"
-            :key="service.id"
-            class="shadow-xl w-56 h-72 flex flex-col gap-y-20"
-          >
-            <div class="text-center">
-              <img :src="service.image || defulatImg" class="w-20 h-20 rounded-full mx-auto" />
-              <div class="card-body">
-                <h2 class="text-2xl font-bold">{{ service.title }}</h2>
-              </div>
-              <div
-                class="detilse"
-                :style="{ color: service.color, border: `1px solid ${service.color}` }"
-              >
-                <p class="card-text">
-                  {{ language === 'en' ? 'About this service' : 'حول هذه الخدمه' }}
-                </p>
-                <p class="card-text">{{ service.description }}</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> -->
   <!-- Display the footer -->
 
   <footer class="bg-amber-100">
